@@ -21,7 +21,14 @@ header>nav>ul {
     justify-content: center;
     margin:0;
 }
-header>nav>ul>li {
+footer>nav>ul {
+    display: flex;
+    justify-content: center;
+    margin:0;
+    margin-top:4em;
+}
+
+header>nav>ul>li  {
     padding:1em 3em;
     list-style-type: none;
     background-image: url('/img/paber2.png');
@@ -31,4 +38,32 @@ header>nav>ul>li {
     font-size:x-large;
     text-transform: uppercase;
     color: #DE07AD;
+}
+
+footer>nav>ul>li {
+    padding:1em 3em;
+    list-style-type: none;
+    background-image: url('/img/paber2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size:x-large;
+    text-transform: uppercase;
+    color: #DE07AD;
+}
+
+
+footer {
+    height: 15vh;
+    background-image: url('/img/paber1.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#feature img {
+    height: 90vh;
+    margin-left: 4em;
+    margin-top: -10vh;
 }
